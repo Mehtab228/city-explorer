@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+form {
+    margin-top: -10px;
+    background-color: brown;
+    font-weight: bold;
+}
+
+.card2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.button1 {
+    margin-bottom: 10px;
+    width: 20%;
+    margin-left: 40%;
+}
+
