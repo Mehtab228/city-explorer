@@ -1,3 +1,8 @@
+.App {
+    background-color:black;
+    min-height: 100vh;
+}
+
 h1 {
     text-align: center;
     background-color: black;
@@ -10,6 +15,9 @@ form {
     margin-top: -10px;
     background-color: brown;
     font-weight: bold;
+    display: inline-block;
+    width: 50%;
+    margin-left: 320px;
 }
 
 .card2 {
@@ -22,5 +30,7 @@ form {
     margin-bottom: 10px;
     width: 20%;
     margin-left: 40%;
+    height: 50%;
 }
+
 
