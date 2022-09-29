@@ -1,7 +1,6 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Weather from "./Weather";
 import './app.css'
 
 
@@ -16,7 +15,6 @@ class CityCard extends React.Component {
                         <Card.Text>
                             The latitude is: {this.props.location_id.lat}
                             The longitude is: {this.props.location_id.lat}
-                            <Weather weatherData= {this.props.weatherData}/>
                         </Card.Text>
                         <Button variant="dark">Find out More</Button>
                     </Card.Body>
