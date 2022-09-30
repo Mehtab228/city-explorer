@@ -7,6 +7,7 @@ import Weather from "./Weather";
 import Alert from 'react-bootstrap/Alert';
 import MoviesRender from './MoviesRender';
 
+
 class Main extends React.Component {
     constructor(props) {
         super(props);
@@ -86,8 +87,12 @@ class Main extends React.Component {
                      {this.state.errorMessage}
                     </Alert>
                  }
-                <Weather weather= {this.state.weather}/>
-                <MoviesRender movie= {this.state.movie} />
+                {this.state.weather && 
+                <>
+                <Weather weather={this.state.weather}/>
+                </>}
+                {this.state.movie &&
+                <MoviesRender movie={this.state.movie} />}
             </>
         )
     }

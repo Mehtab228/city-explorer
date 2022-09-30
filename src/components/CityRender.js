@@ -7,8 +7,8 @@ class CityRender extends React.Component {
     render() {
         return (
             <>
-             <Form>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
+             <Form className="mb-4">
+                    <Form.Group className="mb-2" controlId="formBasicEmail">
                         <Form.Label>Enter your City:</Form.Label>
                         <Form.Control onChange={this.props.handleInput} type="value" placeholder="Enter City" />
                     </Form.Group>

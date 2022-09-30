@@ -8,7 +8,7 @@ class CityCard extends React.Component {
     render() {
         return (
             <>
-                <Card  style={{ width: '22rem' }} className="card2">
+                <Card style={{ width: '20rem' }} className="card2 mb-5">
                     <Card.Img src={this.props.cityMap_id} variant="top" />
                     <Card.Body>
                         <Card.Title>{this.props.location_id.display_name}</Card.Title>

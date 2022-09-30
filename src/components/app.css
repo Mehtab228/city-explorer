@@ -1,18 +1,18 @@
 .App {
-    background-color:black;
+    background-color: rgba(117, 69, 7, 0.658);
     min-height: 100vh;
 }
 
 h1 {
     text-align: center;
-    background-color: black;
     color: whitesmoke;
     padding-bottom: 20px;
     padding-top: 20px;
+    background-color: rgba(56, 39, 16, 0.658);
 }
 
 form {
-    margin-top: -10px;
+    margin-top: 20px;
     background-color: brown;
     font-weight: bold;
     display: inline-block;
@@ -30,7 +30,8 @@ form {
     margin-bottom: 10px;
     width: 20%;
     margin-left: 40%;
-    height: 50%;
+    height: 10%;
+    display: block;
 }
 
 .weather {
@@ -42,3 +43,15 @@ p, h3, h5 {
     text-align: center;
 }
 
+#foot {
+    background-color: rgba(56, 39, 16, 0.658);
+    text-align: center;
+    min-height: 50px;
+    font-size: larger;
+    margin-top: 300px;
+}
+
+#foot h6 {
+    color: whitesmoke;
+    padding-top: 15px;
+}
